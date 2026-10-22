@@ -1,0 +1,68 @@
+# Prerequisites & Build Artifacts
+build/
+bin/
+out/
+dist/
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.elf
+*.hex
+*.bin
+*.map
+*.d
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+cmake-build-*/
+
+# Embedded IDEs & Toolchains
+.pio/
+.clangd/
+.vscode/
+.idea/
+*.uvopt*
+*.uvproj*
+Listings/
+Objects/
+Debug/
+Release/
+*.ewd
+*.ewp
+*.dep
+.settings/
+.project
+.cproject
+
+# FPGA & Simulation (Vivado, Quartus, ModelSim, Icarus)
+*.vcd
+*.wdb
+*.jou
+*.log
+xsim.dir/
+*.wcfg
+work/
+
+# Python & Scripts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# OS & Temp Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*~
